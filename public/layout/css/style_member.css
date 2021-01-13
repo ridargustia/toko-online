@@ -1,0 +1,74 @@
+.panel-body p{
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+
+.panel-body h3{
+	margin-top: 10px;
+}
+
+.disabled{
+	
+}
+
+.row .col-lg-3 .hovers:hover{
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+	transform: scale(1.02);
+}
+
+@media screen and (min-width:1025px){
+	body div .navbar .container-fluid .sembunyikan{
+		display: none;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.panel-body .row .col-md-4 img{
+		height: 310px; 
+		/* width: 310px; */
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.panel-body .row .col-md-4 img{
+		height: 500px; 
+		/* width: 200px; */
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.panel-body .row .col-md-4 img{
+		height: 400px; 
+		/* width: 200px; */
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.panel-body .row .col-md-4 img{
+		height: 300px; 
+		/* width: 200px; */
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.panel-body .row .col-md-4 img{
+		height: 200px; 
+		/* width: 200px; */
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (min-width: 521px) {
+	.teks-detail{
+		width: 150px;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.posisi-detail{
+		text-align: center;
+	}
+}
